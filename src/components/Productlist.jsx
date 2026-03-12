@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 function ProductList() {
@@ -17,6 +17,9 @@ function ProductList() {
     const fetchData = async () => {
       try {
         const response = await fetch('https://fakestoreapi.com/products')
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`)
+        }
         const data = await response.json()
         setProductlist(data)
         setFilteredProducts(data) 

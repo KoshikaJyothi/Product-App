@@ -1,5 +1,4 @@
-import React from 'react'
-import { createBrowserRouter ,RouterProvider} from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import RootLayout from './components/RootLayout'
 import Productlist from './components/Productlist'
 import ContactUs from './components/ContactUs'
