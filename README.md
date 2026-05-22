@@ -1,25 +1,71 @@
-React Products App
-A modern, responsive product showcase application built with React 19, React Router 7, and Tailwind CSS 4.
+# Product App
 
-Features
-Responsive Design: Optimized for mobile, tablet, and desktop views using Tailwind CSS.
-Dynamic Routing: Seamless navigation implemented with React Router 7.
-Product Showcase: Detailed views for exploring product listings.
-Modern Tech Stack: Leveraging the latest versions of React and build tools.
-Tech Stack
-Framework: React 19
-Routing: React Router 7
-Styling: Tailwind CSS 4
-Build Tool: Vite
-Linting: ESLint
-Getting Started
-Prerequisites
-Node.js (latest LTS version recommended)
-npm or yarn
-Installation
-Navigate to the project directory:
+A simple Product Management Web Application built using the MERN stack.
 
-cd react-products-app
-Install dependencies:
+## Features
 
+- Add new products
+- View all products
+- Update product details
+- Delete products
+- Responsive UI
+- MongoDB database integration
+
+## Tech Stack
+
+- Frontend: React.js
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Styling: CSS / Bootstrap
+
+## Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/KoshikaJyothi/Product-App.git
+```
+
+### Go to project folder
+
+```bash
+cd Product-App
+```
+
+### Install frontend dependencies
+
+```bash
+cd frontend
 npm install
+```
+
+### Install backend dependencies
+
+```bash
+cd backend
+npm install
+```
+
+## Run the project
+
+### Start backend
+
+```bash
+npm start
+```
+
+### Start frontend
+
+```bash
+npm run dev
+```
+
+## Environment Variables
+
+Create a `.env` file in backend folder and add:
+
+```env
+
+PORT=5000
+```
+
